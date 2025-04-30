@@ -29,25 +29,25 @@ StatMS is a tool designed for bioinformatics analysis, aimed at providing resear
 Download the software installation package and extract it to a local directory.
 Use the following command to download directly to the current directory or download the zip file locally:
 
-wget https://github.com/hjzeng111/StatMS/releases/download/StatMS_V1.0.1/StatMS.zip -OutFile StatMS.zip
+    wget https://github.com/hjzeng111/StatMS/releases/download/StatMS_V1.0.1/StatMS.zip -OutFile StatMS.zip
 
 2.打开终端，进入软件目录，运行以下命令：
 
 Open the terminal, navigate to the software directory, and run the following command:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 如有网络连接超时等情况可使用
 
-(pip install -r requirements.txt --index-url https://pypi.tuna.tsinghua.edu.cn/simple)清华源镜像
+    (pip install -r requirements.txt --index-url https://pypi.tuna.tsinghua.edu.cn/simple)清华源镜像
 
-(pip install -r requirements.txt --index-url https://mirrors.aliyun.com/pypi/simple/)阿里云镜像
+    (pip install -r requirements.txt --index-url https://mirrors.aliyun.com/pypi/simple/)阿里云镜像
 
-(pip install -r requirements.txt --index-url https://pypi.mirrors.ustc.edu.cn/simple/)中科大镜像
+    (pip install -r requirements.txt --index-url https://pypi.mirrors.ustc.edu.cn/simple/)中科大镜像
 
-(pip install -r requirements.txt--index-url https://mirrors.huaweicloud.com/repository/pypi/simple/)华为云镜像
+    (pip install -r requirements.txt--index-url https://mirrors.huaweicloud.com/repository/pypi/simple/)华为云镜像
 
-## 安装完成后，运行以下命令启动软件：
+## 启动软件：
 After installation is complete, run the following command to launch the software:
 
-python work.py
+    python work.py
